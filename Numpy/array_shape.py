@@ -13,6 +13,7 @@ Create an array with 5 dimensions using ndmin using a vector with
 values 1,2,3,4 and verify that last dimension has value 4:
 
 arr = np.array([1, 2, 3, 4], ndmin=5)  #  [[[[[1 2 3 4]]]]]
+
 print(arr)
 print('shape of array :', arr.shape)     # (1, 1, 1, 1, 4)	
 
@@ -24,7 +25,6 @@ Note : In the example above at index-4 we have value 4, so we can say that 5th (
 # import numpy as np
 
 # arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
-
 # print(arr.shape)    # (2, 4)
 
 
@@ -54,3 +54,43 @@ Note : In the example above at index-4 we have value 4, so we can say that 5th (
 # arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
 # newarr = arr.reshape(2, 3, 2)
 # print(newarr)
+
+
+# ravel() — Convert to a 1D array
+
+# b = np.array([[1, 2], [3, 4]])
+# print(b.ravel())
+
+# Output: [1 2 3 4]
+# Usually returns a view when possible, so changes may affect the original array.
+# Task: Convert a 3 × 3 array into a 1D array using ravel().
+
+
+# flatten() — Make a 1D copy
+
+# b = np.array([[1, 2], [3, 4]])
+# print(b.flatten())
+# Output: [1 2 3 4]
+# Unlike ravel(), flatten() returns a copy.
+# Task: Convert a 2 × 3 array into 1D using flatten().
+
+
+# resize() — Change array dimensions
+# np.resize() returns a new array of the requested shape.
+# If more elements are needed, it repeats the original values.
+
+# a = np.array([1, 2, 3, 4])
+# b = np.resize(a, (2, 3))
+# print(b)
+# Output:
+# [[1 2 3]
+#  [4 1 2]]
+
+
+# Task: Use np.resize() to convert [10, 20, 30] into a 2 × 3 array.
+
+
+
+
+
+

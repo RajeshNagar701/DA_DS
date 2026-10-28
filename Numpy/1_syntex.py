@@ -23,13 +23,15 @@ Why is NumPy essential for Data Science?
 •	Mathematical operations without writing explicit Python loops for every calculation.
 
 Why is NumPy Faster Than Lists?
-•	NumPy arrays are stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.
+•	NumPy arrays are stored at one continuous place in memory unlike lists, 
+    so processes can access and manipulate them very efficiently.
 •	This behavior is called locality of reference in computer science.
-•	This is the main reason why NumPy is faster than lists. Also it is optimized to work with latest CPU architectures.
+•	This is the main reason why NumPy is faster than lists. 
+    Also it is optimized to work with latest CPU architectures.
 
 Which Language is NumPy written in?
-•	NumPy is a Python library and is written partially in Python, but most of the parts that require fast computation are written in 
-C or C++.
+•	NumPy is a Python library and is written partially in Python, 
+    but most of the parts that require fast computation are written in C or C++.
 
 
 Installing and importing NumPy
@@ -47,8 +49,6 @@ python -m pip install numpy
 
 # print(arr)         # [10 20 30]
 # print(type(arr))   # <class 'numpy.ndarray'>
-
-
 
 
 # Note : ndarray  means N-dimensional array, the main array object provided by NumPy.
@@ -86,4 +86,17 @@ python -m pip install numpy
 # arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
 
 # print('Last element from 2nd dim: ', arr[1, -1])     # 10
+
+
+
+
+# python List Vs NumPy
+
+#                         Python list             vs          NumPy array
+
+# Feature                 Python list                         NumPy array
+# Data types              Can mix types                   Usually one common dtype
+# Numerical addition      Concatenates lists              Adds values element-wise
+# Memory layout           Stores references to objects    Often stores homogeneous values in a compact data buffer
+# Numerical workloads     Often need loops                Supports vectorized operations
 

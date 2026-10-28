@@ -7,9 +7,11 @@ By default Python have these data types:
 •	float - used to represent real numbers. e.g. 1.2, 42.42
 •	boolean - used to represent True or False.
 •	complex - used to represent complex numbers. e.g. 1.0 + 2.0j, 1.5 + 2.5j
+
 Data Types in NumPy
 NumPy has some extra data types, and refer to data types with one character, like i for integers, u for unsigned integers etc.
 Below is a list of all data types in NumPy and the characters used to represent them.
+
 •	i – integer
 •	S - string
 •	b - boolean
@@ -28,12 +30,10 @@ Below is a list of all data types in NumPy and the characters used to represent 
 import numpy as np
 
 # arr = np.array([1, 2, 3, 4])
-
 # print(arr.dtype)     # int64
 
 
 # arr = np.array(['apple', 'banana', 'cherry'])
-
 # print(arr.dtype)     # <U6
 
 # Creating Arrays With a Defined Data Type
@@ -46,7 +46,6 @@ import numpy as np
 # Change data type from float to integer by using int as parameter value:
 
 # arr = np.array([1.1, 2.1, 3.1])
-
 # newarr = arr.astype(int)
 
 # print(newarr)         # [1 2 3]

@@ -5,24 +5,21 @@ In NumPy, you filter an array using a boolean index list.
 """
 
 # Task - 1:
-    
-    
-# arr = np.array([41, 42, 43, 44])
-# x = [True, False, True, False]
-# newarr = arr[x]
-# print(newarr) 
-
-
-
+import numpy as np
+   
+arr = np.array([41, 42, 43, 44])
+x = [True, False, True, False]
+newarr = arr[x]
+print(newarr) 
 
 
 # Task - 2:
-
 
 # arr = np.array([41, 42, 43, 44])
 
 # # Create an empty list
 # filter_arr = []
+
 
 # # go through each element in arr
 
