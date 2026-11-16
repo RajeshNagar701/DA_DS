@@ -1,7 +1,7 @@
 """
  Error Bars
 
-What Are Error Bars?
+What Are Error Bars?  
 
 Error bars represent uncertainty, variability, or a range around a measured or estimated value.
 

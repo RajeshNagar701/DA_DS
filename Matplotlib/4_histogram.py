@@ -6,6 +6,8 @@ A histogram is a graph used to understand the distribution of numerical data.
 It groups numerical values into intervals called bins and displays how many observations 
 fall into each interval.
 
+For range between 2 number / age 
+
 """
 
 import matplotlib.pyplot as plt
@@ -24,9 +26,9 @@ plt.figure(figsize=(10, 6))
 
 plt.hist(
     ages,
-    bins=8,
+    bins=5,  # how many bins want for (piller)
     edgecolor="black",
-    alpha=0.8
+    alpha=0.5    # transparancy 
 )
 
 # Add title and axis labels

@@ -46,7 +46,7 @@ ax.scatter(
     label="Highest Sales"
 )
 
-# 6. Add annotation and arrow
+# 6. Add annotation and arrow  # display main point highlight for any this on o point
 ax.annotate(
     f"Highest Sales\n{max_month}: ₹{max_sales:,}",
     xy=(max_month, max_sales),

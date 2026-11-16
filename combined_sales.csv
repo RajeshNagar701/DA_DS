@@ -1,0 +1,9 @@
+Month,OrderID,Product,City,Sales
+January,101,Laptop,Ahmedabad,50000
+January,102,Mouse,Surat,2000
+January,103,Keyboard,Ahmedabad,3000
+January,104,Laptop,Vadodara,55000
+February,105,Laptop,Surat,60000
+February,106,Mouse,Ahmedabad,2500
+February,107,Keyboard,Vadodara,3500
+February,108,Monitor,Surat,15000

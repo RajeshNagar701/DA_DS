@@ -1,11 +1,16 @@
 """
 
+
+
 What Is a Donut Chart?
 
 A donut chart is a pie chart with a hole in the center.
 
 It displays proportions in a similar way to a pie chart but leaves an 
 empty space in the middle.
+
+Example : 4 state & state by sales percentage
+
 
 Donut charts are often used for:
 Market share visualization.

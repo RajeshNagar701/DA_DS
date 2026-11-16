@@ -56,7 +56,7 @@ sales = np.array([
 ])
 
 # Calculate linear regression coefficients
-slope, intercept = np.polyfit(advertising, sales, 1)
+slope, intercept = np.polyfit(advertising, sales, 1) # if x change the how much % y cahnge 
 
 # Generate points for the fitted line
 x_line = np.linspace(
@@ -71,7 +71,7 @@ y_line = slope * x_line + intercept
 # Create the chart
 plt.figure(figsize=(10, 6))
 
-# Plot actual observations
+# Plot actual observations   o for scatter
 plt.scatter(
     advertising,
     sales,

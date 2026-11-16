@@ -15,6 +15,8 @@ A legend
 An image file for the presentation
 Complete Python Code
 
+ 
+
 """
 
 import matplotlib.pyplot as plt
@@ -59,7 +61,7 @@ ax.scatter(
     label="Highest Sales"
 )
 
-# 7. Add an annotation
+# 7. Add an annotation   # add 
 ax.annotate(
     f"Peak: ₹{sales[max_index]:,}",
     xy=(months[max_index], sales[max_index]),
@@ -94,7 +96,7 @@ ax.grid(
     alpha=0.4
 )
 
-# 11. Customize tick labels
+# 11. Customize tick labels # we can rotate the font / lable
 ax.tick_params(axis="both", labelsize=10)
 
 # 12. Customize the legend
@@ -103,10 +105,10 @@ ax.legend(frameon=False, loc="upper left")
 # 13. Improve spacing
 fig.tight_layout()
 
-# 14. Save the chart
+# 14. Save the chart 
 fig.savefig(
     "corporate_sales_chart.png",
-    dpi=300,
+    dpi=300,  # picture qulity
     bbox_inches="tight"
 )
 

@@ -43,7 +43,7 @@ plt.xlabel("Date")
 plt.ylabel("Sales (₹)")
 
 plt.grid(axis="y", linestyle="--", alpha=0.4)
-plt.xticks(rotation=45)
+plt.xticks(rotation=45)  
 
 plt.tight_layout()
 plt.show()

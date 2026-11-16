@@ -1,34 +1,40 @@
 
 # 4 charts by subplot()
+# too many charts in 1 chart 
+ 
 
-import matplotlib.pyplot as plt
 
-months = ["Jan", "Feb", "Mar", "Apr"]
-sales = [100, 120, 140, 160]
-expenses = [50, 65, 70, 90]
-profit = [50, 55, 70, 70]
-customers = [200, 230, 250, 290]
 
-plt.figure(figsize=(10, 7))
+# task 1 Subplot
+ 
+# import matplotlib.pyplot as plt
 
-plt.subplot(2, 2, 1)
-plt.plot(months, sales, marker="o")
-plt.title("Sales")
+# months = ["Jan", "Feb", "Mar", "Apr"]
+# sales = [100, 120, 140, 160]
+# expenses = [50, 65, 70, 90]
+# profit = [50, 55, 70, 70]
+# customers = [200, 230, 250, 290]
 
-plt.subplot(2, 2, 2)
-plt.bar(months, expenses)
-plt.title("Expenses")
+# plt.figure(figsize=(10, 7))
 
-plt.subplot(2, 2, 3)
-plt.plot(months, profit, marker="s")
-plt.title("Profit")
+# plt.subplot(2, 2, 1)     # 2 row , 2 column , 1 indxe graph
+# plt.plot(months, sales, marker="o")   # plot measn line  /
+# plt.title("Sales")
 
-plt.subplot(2, 2, 4)
-plt.bar(months, customers)
-plt.title("Customers")
+# plt.subplot(2, 2, 2)    # 2 row , 2 column , 2 indxe graph
+# plt.bar(months, expenses)  # bar measn bar chart  |||
+# plt.title("Expenses")
 
-plt.tight_layout()
-plt.show()
+# plt.subplot(2, 2, 3)    # 2 row , 2 column , 3 indxe graph
+# plt.plot(months, profit, marker="s")
+# plt.title("Profit")
+
+# plt.subplot(2, 2, 4)     # 2 row , 2 column , 4 indxe graph
+# plt.bar(months, customers)
+# plt.title("Customers")
+
+# plt.tight_layout()
+# plt.show()
 
 """
 
@@ -44,6 +50,8 @@ Customer counts.
 We can display all four visualizations in one figure
 """
 
+# task 2 axislevel chart
+
 import matplotlib.pyplot as plt
 
 # Dataset
@@ -55,7 +63,7 @@ profit = [40, 50, 55, 50, 65]
 customers = [200, 230, 250, 240, 290]
 
 # Create a 2 x 2 figure
-fig, ax = plt.subplots(2, 2, figsize=(12, 8))
+fig, ax = plt.subplots(2, 2, figsize=(12, 8))  # 2 rows , 2 column , 12*8 box
 
 # 1. Sales trend
 ax[0, 0].plot(months, sales, marker="o")

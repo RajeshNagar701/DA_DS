@@ -12,6 +12,13 @@ Create horizontal bar charts using plt.barh().
 A bar chart is a data visualization that uses rectangular bars to compare values 
 across different categories.
 
+
+plt.bar()   vertical , 
+plt.barh()  horizontal 
+
+    property : 
+         x ,y , linewidth ,edgeclr 
+
 """
 
 
@@ -35,11 +42,13 @@ bars = plt.bar(
     regions,
     revenue,
     color="skyblue",
-    width=0.6
+    width=0.6,
+    edgecolor="red",
+    align="center"
 )
 
 # Step 3: Add values to the bars
-plt.bar_label(bars, padding=3, fontsize=9)
+plt.bar_label(bars, padding=2, fontsize=7)
 
 # Step 4: Add title and axis labels
 plt.title("Revenue by Region")
@@ -47,7 +56,7 @@ plt.xlabel("Region")
 plt.ylabel("Revenue (₹)")
 
 # Step 5: Improve layout
-plt.tight_layout()
+plt.tight_layout()   
 
 # Step 6: Display the chart
 plt.show()

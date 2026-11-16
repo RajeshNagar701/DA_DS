@@ -6,6 +6,9 @@ Matplotlib is a Python library used to create data visualizations.
 It supports many chart types and provides detailed control over chart 
 elements, including:
 
+plot  : line graph   For : trend     Property : linewidth,linestyle,marker(o),color  
+
+
 Titles and labels.
 Axis limits and tick marks.
 Colors and line styles.
@@ -37,16 +40,20 @@ months = [
 
 sales = [10000, 15000, 12000, 20000, 25000, 22000]
 
+
+
+#plt.plot(x,y,color,marker,linestyle,linewidth,markersiz,label)
+
 # Step 2: Create the line chart
 plt.plot(
     months,
     sales,
     color="blue",
-    marker="o",
-    linestyle="-",
+    marker="o", #x
+    linestyle="-", #-- ..
     linewidth=2,
-    markersize=8,
-    label="Monthly Sales"
+    markersize=8,  # o size
+    label="Monthly Sales"   # main heading
 )
 
 # Step 3: Add title
@@ -57,10 +64,10 @@ plt.xlabel("Month")
 plt.ylabel("Sales (₹)")
 
 # Step 5: Add grid
-plt.grid(True, linestyle="--", alpha=0.5)
+plt.grid(True, linestyle="--", alpha=0.5) # chart background boxes
 
 # Step 6: Add legend
-plt.legend()
+plt.legend()   # label in graph
 
 # Step 7: Display the chart
-plt.show()
+plt.show()   

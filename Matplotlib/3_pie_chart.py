@@ -30,7 +30,12 @@ category's proportion of the total.
 Important: Pie charts work best when there are only a few categories and all slices 
 represent parts of the same meaningful total.
 
+
+plt.pie(sale,lable,autopct)
+
 """
+
+
 
 
 #Complete Pie Chart
@@ -49,9 +54,9 @@ represent parts of the same meaningful total.
 #     sales,
 #     labels=products,
 #     colors=colors,
-#     autopct="%1.1f%%",
-#     explode=explode,
-#     startangle=90,
+#     autopct="%1.1f%%",   # for percentage 63.53 : 64
+#     explode=explode,     # sapce between porsion
+#     startangle=90, 
 #     shadow=False,
 #     wedgeprops={"edgecolor": "white", "linewidth": 2}
 # )
