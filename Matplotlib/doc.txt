@@ -1,0 +1,79 @@
+plt.figure()
+
+plt.plot() trend line chart
+color
+marker
+title
+xlable
+ylable
+linestyle
+
+plt.show()
+
+plt.bar()   ||| barh horizontal
+color
+height
+width
+text
+
+pie & donut
+plt.pie()
+sizes
+autopct => show percentage inside
+explode => pulling slice out
+
+donut => plt.circle()
+
+histogram : bins => building  
+plt.hist() range age , score [] []
+bins => no of piller 
+
+
+plt.scatter() relationship between two value
+	=> adv increase then sales increes
+
+polyfit() add line of scatter diagram
+....
+
+subplot() => multile chart
+2*2 grid 4 diagram
+plot,bars,scater
+
+plt.tight_layout() => sapacing between 4 subplot diagram
+
+
+customization & style => 
+
+plt.style.use(style_name)
+
+
+plt.grid(true) add background so easy to read value
+
+advance chart :
+stacked > ||| two value comparistion bar chart
+area     plt.fill_between() in line chart shwo volume over time
+errorbars   plt.errorbars()  uncertainly or variablity
+time series  : plot data on dates/time 
+
+
+annotation : hightlight specific data point : highest sales
+	
+plt.text() : add test on anyrhere in text
+plt.legend() : show labeled whem multiple bars & line
+
+
+plt.xlim() ylim() set range of x & y
+
+export & saving :
+plt.savefig()
+dpi => dot per inch  
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+
+	statsticle chart
+
+countplot => ||  barchar of single value count
+barplot => ||||| bbar chart of 2 value  
+
+histplot => building => bins numeric value bar chart |||| 
+kdeplot  => rounded building bins
+
+boxplot => --[]--  --[]--  Spread, median and outliers?
+violinplot => draws a combination of a box plot and a kernel density estimate --()--
+
+pairplot : grid diagram All numeric pairs at once? => grid of axes to show pairwise relationships across numeric variables in a dataset
+
+jointplot: Two numeric variables + their distributions? round round OO
+
+Heatmap : boxes grid Correlation between many numeric columns?
+
+scatterplot : ... diagram with liener line of scatter
+
+lineplot : line chart => Trend over time / ordered x?
+
+regplot : scatter digram with regline on digrame  it a trend line? Regression 
+lmplot  : same as above but , row col hue advanage over regplot

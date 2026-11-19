@@ -7,8 +7,8 @@ pip install  seaborn
 
 1. numpy ------> array   
 2. pandas ---> data cleaning 
-3. matplotlib ---> basic plot  
-4. seaborn ---> statistical plot
+3. matplotlib ---> basic chart plot  
+4. seaborn ---> statistical chart plot
 
 what is  difference between  matplotlib and seaborn ??
 
@@ -54,14 +54,16 @@ Relational plots:   ;line
 Distribution plots:   like histogram
     sns.histplot()
     sns.kdeplot()
+    
     sns.ecdfplot()
     sns.rugplot()
 
 Categorical plots:     bar chart
     sns.boxplot()
-    sns.violinplot()
     sns.barplot()
     sns.countplot()
+    
+    sns.violinplot()
     sns.stripplot()
     sns.swarmplot()
     sns.pointplot()
@@ -69,13 +71,11 @@ Categorical plots:     bar chart
 Regression plots:     line chart with regression line
     sns.regplot()
 
-Matrix plots:         find co relation between 2 or more va
+Matrix plots:         find co relation between 2 or more numericle value
     sns.heatmap()
     
     
     
-    
-
 figure level charts:
 
 Relational plots:
