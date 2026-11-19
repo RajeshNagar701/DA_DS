@@ -1,6 +1,15 @@
 # Joining NumPy Arrays  concatenate()
 # Joining means putting contents of two or more arrays in a single array
 
+# np.concatenate()  # merge two arr
+# stack(), 
+# hstack() horizontal ,
+# vstack() verticle, 
+# dstack() convert in 2d to 3d
+
+# axis=0  column
+# axis=1  row
+
 import numpy as np
 
 # arr1 = np.array([1, 2, 3])

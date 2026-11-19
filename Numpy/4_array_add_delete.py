@@ -3,7 +3,6 @@
 • insert(arr, obj, values): Inserts values along the given axis before the given indices.
 • delete(arr, obj, axis): Deletes subarrays along a specific axis.
 
-
 """
 # import numpy as np
 

@@ -53,7 +53,8 @@ python -m pip install numpy
 
 # Note : ndarray  means N-dimensional array, the main array object provided by NumPy.
 
-# Note : To create an ndarray, we can pass a list, tuple or any array-like object into the array() method, and it will be converted into an ndarray
+# Note : To create an ndarray, we can pass a list, tuple or any array-like object into the array() 
+# method, and it will be converted into an ndarray
 
 # import numpy as np
 # arr = np.array((1, 2, 3, 4, 5))

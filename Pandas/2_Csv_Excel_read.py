@@ -1,3 +1,11 @@
+# export or imporrt dataSet 
+# pd.DataFrame()  convert in dataSet data (row & column)
+# pd.to_csv  export in csv file
+# pd.to_excel  export in csv file
+# pd.read_csv  read from csv file
+# pd.read_excel read from excel file
+
+
 import pandas as pd
 import os
 

@@ -1,3 +1,18 @@
+"""
+Pandas is a fast, open-source Python library used for working with structured data sets. Built on top of NumPy, 
+it provides tools for 
+    cleaning, 
+    transforming, and 
+    analyzing tabular data like spreadsheets or SQL tables.
+
+Pandas organizes data using two primary objects:
+• Series. A one-dimensional labeled array capable of holding any data type. It acts like a single column in a spreadsheet.
+
+• DataFrame. A two-dimensional labeled table with rows and columns. 
+Different columns can hold different data types, such as numbers, text, or dates
+
+"""
+
 
 import pandas as pd
 
@@ -33,6 +48,6 @@ print(df.shape)
 print("\nData Types:")
 print(df.dtypes)
 
-# Step 8: Display summary statistics
+# Step 8: Display summary statistics give all count mean std min max
 print("\nStatistical Summary:")
 print(df.describe())

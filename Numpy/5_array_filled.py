@@ -4,7 +4,7 @@ FILLED ARRAYS
 np.zeros(shape) — all zeros
 np.ones(shape) — all ones
 np.empty(shape) — uninitialized (garbage values)
-np.eye(n) / np.identity(n) — identity matrix
+np.eye(n) / np.identity(n) — identity matrix create 2d 
 
 Zero, One and Empty Arrays
 

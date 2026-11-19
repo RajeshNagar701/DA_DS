@@ -1,4 +1,9 @@
 # Random Arrays
+# 1) np.random.rand() Meaning: Generates random decimal numbers between 0 and 1, excluding 1.
+# 2) np.random.randn() generate near 0 value
+# 3) np.random.randint()  Generates random integers. The upper limit is excluded.
+# 4) np.random.choice()  Meaning: Randomly selects values from a given list or array.
+# 5) np.random.seed() Meaning: Makes random results reproducible when you use the same seed and the same random operations.
 
 # 1) np.random.rand() Meaning: Generates random decimal numbers between 0 and 1, excluding 1.
 
@@ -47,11 +52,13 @@
 # 5) np.random.seed()
 # Meaning: Makes random results reproducible when you use the same seed and the same random operations.
 
-
-# np.random.seed(10)
-# print(np.random.randint(1, 100, size=5))
+import numpy as np
+import random
+np.random.seed(10)
+print(np.random.randint(1, 100, size=5))
 
 
 # output: [10 16 65 29 90]
 # Run the code again with the same seed and you will get the same sequence of numbers.
+
 

@@ -1,4 +1,12 @@
-# Array Attributes
+# Array Attributes  means we can know about array 
+# 1. ndim — Number of dimensions
+# 2. shape — Rows and columns Returns the size of each dimension.
+# 3. size — Total number of elements
+# 4. dtype — Data type Tells the type of values stored in the array.
+# 5. itemsize — Bytes per element
+# 6. nbytes — Total array data memory
+
+
 
 # 1. ndim — Number of dimensions
 # Tells how many dimensions an array has.
@@ -13,7 +21,7 @@
 # Task: Create a 1D array and a 3D array. Print their dimensions.
 
 
-# 2. shape — Rows and columns Returns the size of each dimension.
+c
 # import numpy as np
 
 # arr = np.array([[10, 20, 30],

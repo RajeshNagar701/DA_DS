@@ -1,4 +1,5 @@
 # Transpose Arrays
+# vice - verse  convert row in column & column in row
 
 
 # a = np.array([[1, 2, 3],[4, 5, 6]])

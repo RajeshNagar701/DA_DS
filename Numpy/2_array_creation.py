@@ -1,3 +1,9 @@
+# create np.array(any type)
+# arrange(start,stop,step)     1 to 10 but last value excluded 
+# np.linspace(start,stop,step) set in equel part & last value include 
+ 
+
+
 # Creating  arrays using np.arange()
 # np.arange() generates values within a specified range using a step size.  
 # np.arange(start, stop, step)
@@ -47,9 +53,9 @@ np.arange() vs np.linspace()
 
   Feature	            np.arange()	        np.linspace()
 Main parameter	     Step size	         Number of values
-Stop value	      Excluded by default	  Included by default
-Best for	       Integer sequences	    Fixed-size sample sets
-Example	         np.arange(0, 10, 2)	    np.linspace(0, 10, 6)
+Stop value	        Excluded by default	  Included by default
+Best for	          Integer sequences	    Fixed-size sample sets
+Example	            np.arange(0, 10, 2)	    np.linspace(0, 10, 6)
 
 print(np.arange(1, 8, 3))       # [1 4 7]
 

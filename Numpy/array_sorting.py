@@ -2,6 +2,9 @@
 # Sorting Arrays
 # Sorting means putting elements in an ordered sequence.
 
+# np.sort()  sort value 
+# np.argsort()  sort index
+
 # import numpy as np
 
 # arr = np.array([3, 2, 0, 1])

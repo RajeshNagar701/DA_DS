@@ -2,6 +2,8 @@
 NumPy Filter Array
 In NumPy, you filter an array using a boolean index list.
 
+np.where() we can find array value
+
 """
 
 # Task - 1:

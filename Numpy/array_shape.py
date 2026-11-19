@@ -19,6 +19,14 @@ print('shape of array :', arr.shape)     # (1, 1, 1, 1, 4)
 
 Note : In the example above at index-4 we have value 4, so we can say that 5th ( 4 + 1 th) dimension has 4 elements.
 
+reshape(shape) — new shape, same data
+(view)
+.ravel() —   convert/reshape 2d to 1d (view, if possible)
+.flatten() — convert/reshape 2d to 1d (always a copy)
+.resize(shape) — reshape in-place, can change size
+
+
+
 
 """
 
